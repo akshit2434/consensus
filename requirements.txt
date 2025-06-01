@@ -1,0 +1,9 @@
+sentence-transformers
+chromadb
+hdbscan
+google-genai
+numpy
+scikit-learn
+matplotlib
+seaborn
+python-dotenv
