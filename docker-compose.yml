@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  chat-api:
+    build:
+      context: .
+      dockerfile: services/chat-api/Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+  python-microservice:
+    build:
+      context: ./services/python-microservice
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    restart: unless-stopped 
