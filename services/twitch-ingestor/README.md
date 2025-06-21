@@ -132,6 +132,13 @@ If you prefer to run the service locally without containerizing it:
 2.  Install local dependencies: `npm install`
 3.  Run the development server: `npm run dev`
 
+
+## Screenshots of my run
+
+![image](https://github.com/user-attachments/assets/cb862136-195e-482d-8b0f-36d45822c5db)
+
+
+
 ## License
 
 MIT 
